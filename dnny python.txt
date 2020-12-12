@@ -1,0 +1,10 @@
+while True:  
+    print (' ')
+    print ('danny divitos hight calculator')
+    print ('_' * 30)
+    hight_feet = input ('how tall is it-- feet: ')
+    feet_inch = int(hight_feet) * 12
+    hight_inches = input ('how manny inches: ')
+    hight = feet_inch + int(hight_inches)
+    danny_hight = int(hight) / 58; 
+    print (str(hight_feet) + 'ft ' + str(hight_inches) + 'in' + ' is ' + str(danny_hight) + ' dannys tall')
